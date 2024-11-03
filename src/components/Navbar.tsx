@@ -13,7 +13,7 @@ const Navbar = () => {
 
 {/* icons and user */}
 
-<div className="flex items-center justify-between p-4">
+<div className="flex items-center gap-6">
     <div className="bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer">
         <Image  src='/message.png' alt="" width={20} height={20} />
     </div>
@@ -25,6 +25,7 @@ const Navbar = () => {
         <span className="text-xs leading-3 font-medium">John Doe</span>
         <span className="text-[10px] text-gray-500 text-right"></span>
     </div>
+    <Image src='/avatar.png' alt="" width={36} height={36}  className="rounded-full"/>
 </div>
 
     </div>
