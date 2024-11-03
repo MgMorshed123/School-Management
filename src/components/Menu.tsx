@@ -127,6 +127,7 @@ const Menu = () => {
               i.items.map((item) => (
                 <Link href={item.href} key={item.label}>
                   <Image src={item.icon} alt="" width={20}height={20}></Image>
+                  <span>{item.label}</span>
                 </Link>
               ))
             }
