@@ -1,6 +1,10 @@
 const Navbar = () => {
   return (
-    <div className=''>Navbar</div>
+    <div className='flex items-center justify-between'>
+
+
+        
+    </div>
   )
 }
 
