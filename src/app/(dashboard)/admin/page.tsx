@@ -23,9 +23,21 @@ const AdminPage = () => {
       </div>
       
       
+      {/* middle chats  */}
       
-      
+      <div className="flex gap-4 flex-col lg:flex-row"> 
+        
+        {/* count chats */}
+        <div className="w-full lg:w-1/3"></div>
+        {/* attendence chats */}
+        <div className=""></div>
       </div>
+
+      {/* bottom charts */}
+      <div className=""></div>
+       
+      </div>
+
       {/* right  */}
       <div className="w-full lg:w-1/3">r</div>
 
